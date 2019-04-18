@@ -35,10 +35,10 @@ namespace C0725030
                         counter++;
                         Console.WriteLine(arr[i]);
                     }
-                        
+
                 }
             }
-        }
 
+        }
     }
 }
