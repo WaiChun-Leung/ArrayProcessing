@@ -13,6 +13,11 @@ namespace C0725030
             int[] arr = { 17, 11, 9, 3, 4, 11, 6, 11, 8, 7 };
             int arr_size = arr.Length;
 
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+
             printRepeating(arr, arr_size);
 
         }
@@ -33,7 +38,7 @@ namespace C0725030
                         
                 }
             }
-            
         }
+
     }
 }
